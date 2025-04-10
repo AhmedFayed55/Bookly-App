@@ -1,4 +1,3 @@
-import 'package:bookly_app/core/utils/colors.dart';
 import 'package:bookly_app/features/splash/presentaion/views/widgets/splash_view_body.dart';
 import 'package:flutter/material.dart';
 
