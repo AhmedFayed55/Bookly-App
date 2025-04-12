@@ -11,7 +11,7 @@ class AppStyles{
   );
 
   static const TextStyle semi20 = TextStyle(
-    fontSize: 20, fontWeight: FontWeight.w500 ,color: AppColors.whiteColor
+    fontSize: 20, fontWeight: FontWeight.w500 ,color: AppColors.whiteColorWithOpacity
   );
 
   static const TextStyle bold24 = TextStyle(
@@ -20,5 +20,9 @@ class AppStyles{
 
   static const TextStyle bold16Grey = TextStyle(
     fontSize: 16, fontWeight: FontWeight.bold ,color: Color.fromARGB(255, 150, 149, 149)
+  );
+
+  static const TextStyle bold22Black = TextStyle(
+    fontSize: 22, fontWeight: FontWeight.bold ,color:AppColors.blackColor
   );
 }
